@@ -1,0 +1,1422 @@
+
+
+/*Cambios SF - Hernan*/
+div.pin {
+	 margin-top:8px;
+}
+
+div.campoUsr {
+	display:block;
+	margin-top:8px;
+}
+
+div.campoUsr label{
+	margin-left:50px;
+}
+
+div.titulo{
+	background-color: #429edc;
+	text-align:center;
+	color:#FFFFFF;
+	/*
+	margin-top:15px; */    /*** HB-1534 ***/
+	/*//margin-top:15px;*/  /*** HB-1534 ***/
+}
+.desa{
+	text-align:center;
+	font-weight:bold;
+	color: #CC0000;
+}
+div.login div.campos div.ingresar label{
+	margin:0;
+	text-align:left;
+	padding-top:10px;
+}
+div.login div.campos div.ingresar{
+	margin: 0px 0px;
+	text-align:left;
+	width: 232px;
+	float:left;
+}
+
+div.login div.campos div. label{
+	margin-left:60px;
+	margin-top:-18px
+}
+
+div.login div.campos div. input{
+	margin-top:-27px
+}
+
+div #contAvatar.avatar {
+	height: 40px;
+    margin-right: 116px;
+    margin-top: 0;
+    position: absolute;
+    right: 0;
+    top: -25px;
+    width: 40px;
+}
+
+
+div.login div.campos div.coordenadas input{
+	width:25px;
+	border: 1px solid #006633;
+	margin-top: 5px;
+	margin-right: 3px;
+}
+
+div.login div.campos div.coordenadas td{
+	width:25px;
+	text-align:right;
+	padding-left:5px;
+}
+
+/*--------------------------------*/
+
+
+html,body{
+	height:100%;
+	width:100%; /*-- HB-3593 --*//***nuevo diseÃ±o***/
+	margin:auto; /*-- HB-3593 --*/
+	padding:0;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	min-width:1024px!important;
+	}
+
+form{margin:0;padding:0;}
+
+div#contenedor{
+	width:760px;
+	float:left;
+	display:inline;
+	background-repeat:no-repeat;
+}
+
+* html div#contenedor{
+	float:none;
+	overflow: hidden;	
+}
+
+div.botonera{
+	min-width:1024px;
+	width:760px;/**** HB-1953 ****/
+	*width:760px;/**** HB-1953 ****/
+	height:26px;
+	/*float:left;*/	/***nuevo diseÃ±o***/
+	display:inline;
+	border-bottom-width:5px;
+	padding-right:0px;
+}
+
+div.botonera ul{
+	list-style-type:none;
+	font-size:12px;			/***nuevo diseÃ±o***/
+	/*height:100%;*/
+	margin:0;
+	padding:0x 0 0 0;
+	*padding:4px 0 0 0;
+	text-align: center;		/***nuevo diseÃ±o***/
+	/*line-height: 30px;	*/	/***nuevo diseÃ±o***/
+}
+
+div.botonera ul li{
+	display: inline;
+}
+
+div.botonera ul li a{
+	display:inline;
+	margin: 0;
+    padding: 0 6px;
+	/*border-left:1px solid #0094D2;*/ /*-- HB-1801 --*/
+	border-right:1px solid #0094D2; /*-- HB-1801 --*/
+}
+
+
+
+
+div.login div.bienvenido{
+	display:block;
+	background-color: #429edc;	/***nuevo diseÃ±o***/
+	border-radius:4px 4px 0 0;	/***nuevo diseÃ±o***/
+	/*float: right;		*/		/***nuevo diseÃ±o***/
+    /*margin: 50px;		*/		/***nuevo diseÃ±o***/
+}
+.bienvenido img {
+    margin: 30px auto 0;		/***nuevo diseÃ±o***/
+    display: none;				/***nuevo diseÃ±o***/
+}
+
+div.login div.ingreso{
+	/*width:267px;*/					/***nuevo diseÃ±o***/
+	/*margin: -15px 0px 0px 85px;*/		/***nuevo diseÃ±o***/
+}
+
+div.login div.siEsPcPublica{
+	width:85%;
+	height:20px;
+	margin: 9px 24px; /*arregla teclado virtual*/
+	padding:0px;
+	/*background:#006837;
+	color:#FFF;*/
+}
+
+div.login div.siEsPcPublica p{
+	font-size:37px;
+	float:left;
+	display:inline;
+	/*margin:-7px 5px 0 10px;
+	*margin:0 5px 0 10px;*/
+}
+
+div.login div.siEsPcPublica label{
+	float:left;
+	display:inline;
+	font-size:10px;
+	margin:6px 0 0 35px;
+	*margin:5px 0 0 35px;	
+}
+/*Se modifica margin para SF - Hernan*/
+div.login div.siEsPcPublica input{
+	float:left;
+	display:inline;
+    margin:5px 0 0 7px;
+}
+/*fix checkbox IE6 */
+* html div.login div.siEsPcPublica input { margin:2px 0 0 6px; }
+
+/*Se modifica padding, posisiciï¿½n, y ancho para SF - Hernan*/
+div.login div.campos{
+	/*margin-top:20;*/
+	padding:0px 0px 0px;
+	width:100%;				/***nuevo diseÃ±o***/
+	/*float:left;*/				/***nuevo diseÃ±o***/
+	background:none;
+	top: 145px;					/***nuevo diseÃ±o***/
+	/*right: 80px;				/***nuevo diseÃ±o***/
+	position:absolute;
+}
+
+
+/*Se modifica text-align, margin y padding para SF - Hernan*/
+div.login div.campos label{
+	float: left;
+    font-size: 1em;
+    padding: 0;
+    text-align: right;
+}
+
+
+/*Se modifica float, border y margin para SF - Hernan*/
+div.login div.campos input{
+	background-color: #f3f3f3;
+    border: 1px solid #b0b0b0;
+    margin-left: 10px;
+    padding: 6px;
+    width: 220px;
+    display:block;
+}
+/***nuevo diseÃ±o***/
+div.login div.campos input:focus{	
+	background-color: #ffffff;
+}
+/***fin nuevo diseÃ±o***/
+
+#contAvatar > img {
+    width: 46px;
+}
+
+/*Modificacione3s varias para SF  Hernan*/
+div.login div.campos div#campoUsuario {
+	margin: 0;
+    text-align: left;
+    width: 250px;
+
+}
+div.login div.campos div.campo {
+	/*width:175px;*/			/***nuevo diseÃ±o***/
+	/*margin-top: 10px;*/		/***nuevo diseÃ±o***/
+	/*float:right;*/			/***nuevo diseÃ±o***/
+}
+/*div.login div.campos div#campoUsuario div.campo, div.login div.campos div#campoPassword div.campo, div.login div.campos div#otp div.ingresar {
+	background: transparent url('imagenes/login/bg_input.gif') no-repeat top left;
+	background-position:inherit;
+	width:120px;
+	height:20px;
+	margin-top:0px;
+	padding-top: 0px;
+	float:right;
+}*/
+div.login div.campos div#campoUsuario div.campo, div.login div.campos div#campoPassword div.campo, div.login div.campos div#ingresar div.campo{
+	display: block;
+}
+
+div#campoPassword{
+	width:250px;		/***nuevo diseÃ±o***/
+	/*float:right;*//***nuevo diseÃ±o***/
+}
+
+*:first-child+html div.login div.ingreso div.campos input{
+	background-attachment: inherit;
+}
+
+/*Se modifica width para SF - Hernan*/
+div.login div.campos input#pin{width:120px;}
+
+div.login div.campos a.preg {
+	font-family: "Arial Black";
+	font-size: 22px;
+	text-decoration: none;
+	/*float:left;*/
+}
+
+/*div.login div.campos img#btn_ingresar{
+	margin:10px 0 0 0;
+	cursor:pointer;
+}
+*/
+div.login img#btn_ingresar{
+	margin:10px 0 0 0;
+	cursor:pointer;
+}
+
+
+div.login img.certify{
+	position:absolute;
+	bottom:10;	
+}
+
+div.login img.certify.left{
+	left:10;
+	bottom:25;	
+}
+
+div.login img.certify.right{
+	right:10;
+}
+
+/** ------- CUSTOMIZABLE ------- **/
+
+html,body{
+	/** 
+	 * Configuracion del fondo del HTML
+	 * 1) Color de fondo
+	 * 2) Imagen usada como patron -> background-image:[url('rutaDeMiImagen')]
+	 * */
+	background-color:#429edc;				/***nuevo diseÃ±o***/
+	background-image:none;
+
+}
+
+/*se modifica la imagen de fondo para SF - Hernan*/
+div#contenedor{
+	/** 
+	 * Color (azul opaco) de los contornes exteriores del total del login
+	 * */	
+	border-color:#224798;
+	border-bottom-color:#224798;
+	/** 
+	 * Color e imagen del fondo del contenedor, y su posicion
+	 * */
+	/*background-color:#071961;*/			/***nuevo diseÃ±o***/
+	background-image:url('imagenes/login/bg_login1.jpg'); /***HB-3006***/		/***nuevo diseÃ±o***/
+	background-position: left top -30px;		/***HB-5319***/
+	background-position: left top\9;		/***HB-5319***/
+	width: 100%;							/***nuevo diseÃ±o***/
+	background-color: #fff;					/***nuevo diseÃ±o***/
+	height: 100vh;					/***nuevo diseÃ±o***/
+	background-size: cover;
+	/*max-height: 500px;						/***nuevo diseÃ±o***/
+    /*min-height: 350px;						/***nuevo diseÃ±o***/
+    /*height: 50%;							/***nuevo diseÃ±o***/
+}
+
+div.botonera{
+	background:#0087ab; /*-- HB-1801--*/
+	/*border-bottom-style: solid;*/		/***nuevo diseÃ±o***/
+	/*border-bottom-color: #005AA9;*/	/***nuevo diseÃ±o***/
+	text-align: left;
+	width:100%;							/***nuevo diseÃ±o***/
+	height:65px;						/***nuevo diseÃ±o***/
+	display: block;						/***nuevo diseÃ±o***/
+	box-shadow: 0 0 5px #000;			/***nuevo diseÃ±o***/
+	position:absolute;					/***nuevo diseÃ±o***/
+}
+
+@media (max-width: 650px) {
+	div.botonera{
+		height:auto;
+	}
+}
+
+.enlacesLogin {
+    margin: 25px auto;
+    max-width: 980px;
+    width:980px;
+}
+
+.enlacesLogin ul{
+	float:right;
+	margin-left:300px;
+	margin-right:54px !important;
+}
+
+.enlacesLogin:before{
+	background-color: #0087ab;
+    background-image: url("imagenes/login/logoBna.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 80% auto;
+    border-radius: 2px 2px 0 0;
+    content: "";
+    float: left;
+    height: 43px;
+    position: relative;
+    top: -14px;
+    width: 280px;
+}
+
+div.botonera a{
+	font-family: Arial;
+	color: #fff;
+	text-decoration: none;
+}
+
+div.botonera a:hover{
+
+	text-decoration:none; /*-- HB-1801 --*/
+}
+
+div.login{
+	/*float: left;*/				/***nuevo diseÃ±o***/
+	border-right:2px solid none;
+	background-color:none;
+}
+
+div.login div.bienvenido{
+	background-image: url('imagenes/login/homebanking.jpg');
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-color: transparent;
+	height: 90px;							/***nuevo diseÃ±o***/
+	background-color: #0087ab;				/***nuevo diseÃ±o***/
+	border-radius: 2px 2px 0 0;				/***nuevo diseÃ±o***/
+}
+
+div.login div.siEsPcPublica{
+
+}
+/*
+div.login div.siEsPcPublica label {
+	float: none;
+	font-size: 11px;
+	margin: 0;
+	position: absolute;
+	top: 6px; left: 17px;
+}
+
+div.login div.siEsPcPublica input {
+	float: none;
+	margin: 0;
+	position: absolute;
+	top: 6px; right: 25px;
+}*/
+
+
+
+div.login div.siEsPcPublica img{
+	float:left;
+	margin: 0 0 0 10px;
+}
+
+/*Modificado para SF - Hernan*/
+a.btn_ingresar{
+	background-color: #00addb;
+    border-radius: 2px;
+    bottom: 50px;
+    color: #fff;
+    font-weight: bold;
+    padding: 8px;
+    position: absolute;
+    right: 60px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    width: 204px;										/***nuevo diseÃ±o***/
+}
+/***nuevo diseÃ±o***/
+.btn_ingresar a:hover{
+	background-color: #019cd6;
+}
+/***fin nuevo diseÃ±o***/
+
+div.login div.campos label{
+	color: #333;
+    font-weight: bold;
+    margin-bottom: 5px;
+    margin-left: 10px;
+    margin-top: 6px;
+    text-decoration: none;
+}
+
+div.login div.campos a.preg {
+	color: #224798;
+}
+
+
+
+/* CONTENIDO_TECLADO NUEVO */
+
+#botonera{
+	position:absolute;
+	top:173px;
+	left:479px;
+	z-index: 8;
+	display:block;
+	background:#6088BB url('imagenes/login/bgTeclado.jpg') repeat-x top left;
+	border:2px solid #FFF;
+	padding:2px;
+}
+
+tr.btn td, td#b0{
+	background:url('imagenes/login/bgBoton.gif') no-repeat;
+	width:31px;
+	height:17px;
+	text-align:center;
+	cursor:pointer;
+	cursor:hand;
+	font-family:verdana,sans-serif;
+	font-weight:bold;
+	font-size:12px;
+}
+
+td#borrar{
+	background:url('imagenes/login/bgBotonBottom.gif') no-repeat;
+	padding:0px;
+}
+
+td#borrar a{
+	
+	font-weight:bold;
+	font-size:11px;
+	text-decoration:none;
+	color:#000;
+	padding:2px 11px;
+}
+
+
+div.cuerpo{
+	background-repeat: no-repeat;
+	background-position: bottom left;
+	float: left;
+	clear: left;
+	background:#fff;
+	width: 760px;
+	color: #005AA9;
+	font-family: verdana;
+	text-align: left;
+	bottom:0px;
+	position:fixed;
+}
+
+div.cuerpo h3{
+	font-size: 18px;
+	font-weight: bold;
+	padding:10px 10px 0 10px;
+}
+
+div.cuerpo h4{
+	font-size: 12px;
+	font-weight: bolder;
+	margin-top:5px;
+	padding: 0 10px;
+}
+
+div.cuerpo p{
+	margin: 5px 40px 5px -90px;
+	padding: 15px 0px;
+	font-size: 11px;
+	width:800px;
+	display: inline-block;		/***nuevo diseÃ±o***/
+	text-align: justify;
+	max-width:800px;			/***nuevo diseÃ±o***/
+	min-width:800px;
+}
+
+@media (max-width: 550px) {
+	div.cuerpo p{
+		width:75%;
+	}
+}
+
+div#contenedor div.cuerpo{
+	text-align: center;
+	width:100%;				
+	background-color:#ffffff;
+	border-top: 1px solid #cccccc;
+	position:fixed;
+	bottom:0px;
+	min-width:900px;
+	
+}
+
+
+div.cuerpo p span{
+font-weight:bold;
+background:#429edc;				/***nuevo diseÃ±o***/
+color:#ffffff;					/***nuevo diseÃ±o***/
+padding:0 5px;
+}
+
+
+/* html div.cuerpo div.chicos a.linkCertisur{margin:18px 5px 0;}*/
+
+
+/*Modificado para SF - Hernan*/
+div.login div.campos a.preg {
+	position: absolute;
+    right: 111px;
+    top: 0px;
+}
+
+a.preg{
+	margin-top:10px;
+	margin-left:15px;
+}
+
+/*IE6*/
+
+*:first-child+html {} * html a.preg{
+	margin-top:3px;
+	margin-left:0px;
+}
+
+/*Modificado para SF-Hernan*/
+div.login div.campos a.preg.ayuda2 {
+	*top:3px; 
+	*margin-top:2; 
+	*left:232px;
+}
+div.login div.campos a.preg{
+	*top:3px;
+	margin-top:0!important; 
+	*left:232px;
+	*clear:both;
+}
+
+div.pie{
+	display:none;
+}
+/*Se modifica margen izquierdo y se elimina clase .avatar para SF - Hernan*/
+div.login div.campos {
+	margin-left: 50px;		/***nuevo diseÃ±o***/
+	text-align: center;
+	clear:left;
+}
+
+
+/*--
+ Estado
+--------------------------------------*/
+
+div.estado {
+    height: 30px; width:430px;
+    position: absolute;
+    top:90px;  left: 150px;
+    z-index:500;
+    padding:10px;
+    opacity:0.9;
+    font-family: Arial, Helvetica, sans-serif;
+	-moz-border-radius: 4px; -khtml-border-radius: 4px; -webkit-border-radius: 4px; border-radius: 4px;
+}
+
+* html div.estado{
+	position:absolute;
+	top:50px;
+}
+
+div.estado h4{
+    margin:0;
+    padding:0;
+    opacity:1.0;
+    z-index:600;
+    float:left;
+    width:365px;
+    font-size:0.8em;
+    color: #333;
+	width: 200px;
+} /* HB-6875 se quitÃ³ heigth:30px */
+
+div.estado span{
+	background: url(imagenes/compartido/bt.cerrar.modal.gif) no-repeat bottom right;
+    color: #000; 
+	cursor:pointer;
+	display:block;
+	float:right;
+    font-size:0.8em;
+	font-weight: bold;
+    padding:0 18px 0 0;
+	height:18px;
+}
+
+div.estado{
+    background:#B3DB89;
+    border:1px solid #7BAD73;
+}
+
+div.estado.error{
+    background:#F7D6CB;
+    border:1px solid #CE4509;
+    min-height:45px !important;
+    height: auto !important; /* HB-5009 */
+}
+
+div.estado.bien{
+    background:#B3DB89;
+    border:1px solid #7BAD73;
+}
+
+/*--
+	TECLADO VIRTUAL
+-------------------------------------*/
+
+
+#osk{
+background:#6088BB url(imagenes/login/bgTeclado.jpg) left top;
+border:2px solid #FFFFFF;
+display:block;
+left:479px;
+padding:2px;
+position:absolute;
+top:173px;
+z-index:8;
+padding-top:20px;
+}
+
+
+#osk div {
+	padding: 1px 2px;
+}
+
+#osk input, #osk button {
+	border:none;
+	border-color: #4D4D4D;
+	background-color:#FFFFFF;
+	color:#000000;
+	cursor: pointer;
+	font-family:verdana,sans-serif;
+	font-size: .8em;
+	font-weight:bold;
+	height: 18px; 
+	border: none;
+	margin-right: 3px;
+	width:30px;
+}
+
+* html #osk input, * html #osk button{ width: 20px; }
+html #osk input#key_backspace, html #osk button#key_backspace { width: 63px;}
+
+/*--
+MODAL
+-----------------------------------------*/
+
+body .jqmWindow.linkModal {
+	background: #fff;
+	font-size: 0.73em;
+	margin-left: -400px;
+}
+
+body #tycModal.jqmWindow.linkModal{width:760px!important;margin-left:-380px!important;margin-top:-50px;_margin-top:-70px!important;}
+
+
+
+.top {
+	background-color:#0F3193;
+}
+	.top h4 {
+		color:#FFF;
+		margin: 4px 0 0 7px;
+		float: left;
+		width: 75%;
+	}
+
+.clave {
+	background-color:#ADCAEA; /*-- HB-2922 --*/
+	padding: 10x 0;
+	text-align: center;
+	width: 100%;
+}
+	.clave a {
+		/*background: url("imagenes/datos.personales/bg.boton.guardar.gif") no-repeat scroll center top transparent !important;*/
+		color:#ffffff;
+		text-decoration:none;
+		text-align:center;
+		margin: 0 3px 0 0!important;
+		float: none!important;
+		font-size: 1em;
+		text-transform: lowercase;
+		width: 105px!important; /*Se agrando el ancho porque no entraba en IE7*/
+	}
+	
+	
+	
+	* html .clave a { height: 30px; padding: 4px 10px!important;}
+	
+	.clave a#btnAceptar {
+	    padding: 7px 18px !important;
+	    text-transform: capitalize;
+	}
+	
+	.clave a#btnCancelar, .clave a#cancelartyc, .clave a#aceptartyc {
+		color: #FFF;
+		padding: 7px 16px!important;	
+		width: 75px;
+		background-color: #0087ab;
+    	border-radius: 3px;
+    	 text-transform: capitalize;
+	}
+	
+	* html .clave a#btnCancelar, * html .clave a#cancelartyc, * html .clave a#aceptartyc {	
+		width: 85px;
+	}
+	
+.contenidoEnlaces {
+	padding-bottom: 15px;
+}
+	
+	.contenidoEnlaces h2 {
+		font-size: 14px;
+	}
+
+#tycModal .clave{*width:800px!important;}
+body .linkModal#tycModal div.middle{*width:800px!important;}
+body .linkModal#enlacesModalLogin div.middle{
+	width: auto;
+	*width:800px!important;
+}
+
+#enlacesModalLogin .top #cerrarEnlacesModalLogin {
+	background: url(imagenes/compartido/cerrar.modal.png) no-repeat right center;
+	color: #FFF;
+	font-weight: bold;
+	margin-right: 10px;
+	padding-right: 18px;
+	padding-left: 0;
+	text-decoration: none;
+}
+
+body .linkModal .top { 
+	padding: 6px 9px;
+	width: 96%!important;
+	*width:800px!important;
+}
+
+body .linkModal#modalOperacionSegura .top{
+	*width:100%!important;
+}
+
+body #confirmacionAliasModal div.top{
+    *width:100%!important;
+}
+
+body .linkModal div.bottom div.clave { 
+	padding: 10px 0px;
+}
+
+body .linkModal div.middle {
+	/*width:96%!important;*/
+	/**width:98%!important;*/
+	max-height:250px!important;
+	*height:250px!important;
+}
+
+body .linkModal div.middle#guardarDatosModal{
+	max-height:auto!important;
+	*height:100%!important;
+}
+
+body .linkModal #divMensajeAlias.middle{
+    *height:auto!important;
+}
+
+/*ENLACES*/
+
+.contenidoEnlaces h2, .contenidoEnlaces h6 {
+	margin:15px 0px 10px;
+	font-size:14px;
+	font-weight:bold;
+	background-color:#949494;
+	color:#fff;
+	padding:5px;
+}
+
+.contenidoEnlaces span p, .contenidoEnlaces span p {
+	margin:15px 0px 10px;
+	font-size:12px;
+	font-weight:bold;	
+	background:none repeat scroll 0 0;
+	background-color:#F4F4F2;
+	border:1px solid;
+	border-color:#ADADAD;
+	color:#333333;
+	padding:4px 5px;
+}
+
+.contenidoEnlaces strong {	font-weight:bold;}
+
+.contenidoEnlaces span {
+	text-align:justify;
+	font-size:12px;
+}
+
+.contenidoEnlaces ol, .contenidoEnlaces ul{
+	list-style-type:none;
+}
+
+
+.contenidoEnlaces li {	
+	margin:5px 0;	
+	text-align:justify;
+	font-size:12px;
+}
+
+.contenidoEnlaces img {
+	border:1px solid #000;
+	margin:10px 0;
+}
+
+.contenidoEnlaces span a {		
+	color:#333;
+	padding:1px;
+	font-size:12px;
+	font-weight:bold;
+}
+
+.contenidoEnlaces span a:hover {		
+	color:blue;	
+}
+
+/*terminos y condiciones*/
+
+.tyc div {
+	text-align:justify;
+	font-size:11px;
+}
+.tyc div u{
+	font-weight:bold;
+	text-decoration:underline;
+}
+
+.messageBox label {font-size:1em!important;}
+
+body .linkModal div.bottom {
+    background-color: #d8d8d8;
+    padding: 10px 0;
+    text-align: center;
+    }
+    
+body .linkModal div.top {
+    background: none repeat scroll 0 0 #0087ab;
+    margin-bottom: 10px;
+    padding: 5px 0;
+    width: 100% !important;
+}
+
+body .linkModal div.bottom div.clave {
+	background: none !important;/**** HB - 2920 ****/ 
+}
+html body .linkModal div.bottom div.clave a {
+	/*background: url("imagenes/datos.personales/bg.boton.guardar2.gif") no-repeat scroll center top transparent !important;/**** HB - 2920 ****/ 
+	margin: 4px 5px 6px 0 !important;/**** HB - 2920 ****/
+    padding: 7px 12px !important;
+    background-color: #005192;
+    border-radius: 3px;
+    line-height:20px;
+}
+
+#tyc2Login {
+    margin-left: 20px !important;
+}
+
+/******** Preguntas Frecuentes *********/
+ol, ul {
+    list-style: outside none none;
+    padding: 0;
+}
+/****** Fin Preguntas Frecuentes *******/
+
+body .linkModal .enlacesBottom a#print {
+    background: url(imagenes/compartido/print.png) no-repeat left top;
+	background-position: left 5px top 5px;
+	background-position: left center\9;
+	background-color:#005192;
+	/*border: 1px solid #123669;*/
+	border-radius: 3px;
+	line-height: 20px;
+    padding: 8px 10px 8px 35px !important;
+	color:#fff;
+}
+body .linkModal .enlacesBottom a#download {
+    background: url(imagenes/compartido/download.png) no-repeat left top;
+	background-position: left 5px top 5px;
+	background-position: left center\9;
+	background-color:#005192;
+	border-radius: 3px;
+	line-height: 20px;
+    padding: 8px 10px 8px 35px !important;
+	color:#fff;
+}
+
+
+body .linkModal .enlacesBottom {
+	padding: 10px 0;
+	}
+/***HB-4905***/
+#enlacesModalLogin #textoContenidoEnlaceLogin.middle {
+    max-height: 350px !important;
+}
+/***Fin HB-4905***/
+
+.clave a#btnAceptar {
+    padding: 7px 18px !important;
+    text-transform:capitalize;
+}
+
+.recuperacion_usuario {
+    bottom: 0;
+    margin: auto;
+    padding: 10px 0;
+    position: absolute;
+    width: 340px;
+}
+html body form#UserNameVerificationForm div#contenedor.contenedor div.login div.recuperacion_usuario a.blanqueo,
+html body form#UserNameVerificationForm div#contenedor.contenedor div.login div.recuperacion_usuario a.desbloqueo{
+	color: #0087ab !important;
+    display: block;
+    margin-left: 60px;
+    text-align: left;
+    width: auto;
+}
+
+/*  HB-6972 */
+#UserNameVerificationForm > .contenedor > .cuerpo > p span.textoAtencionCoordenadas{
+    position: relative;
+    width: 769px !important;
+    height: 33px !important;
+    display: block;
+    background-size: cover;
+    margin: 0px 0px 5px 0px;
+    color:red;
+    font-size:11px;
+    border:1px solid red;
+    background-color:#fff;
+    font-weight:normal;
+    padding:5px;
+    border-left:20px solid red;
+}
+
+#UserNameVerificationForm > .contenedor > .cuerpo > p span.textoAtencionCoordenadas:before{
+	color: #fff;
+    content: "!";
+    font-size: 22px;
+    left: -14px;
+    position: absolute;
+    top: 7px;
+}
+
+/*HB-7135*/
+#ayudaUsuario.textoClave {
+	left: 48% !important;
+    border: 2px solid #0087ab;
+    background-color: #fff;
+    padding: 10px 17px;
+    line-height: 1.4;
+    border-radius: 3px;
+    width: 340px;
+    box-shadow: 0 0px 8px 2px #666;
+}
+
+html body form#UserNameVerificationForm div#contenedor.contenedor > div.cuerpo:beforte{
+	content:"";
+	position:absolute;
+	color:red;
+}
+
+/* logos validaciÃ³n login */
+
+a.RedLinkLogoLogin{display:inline-block;}
+a.RedLinkLogoLogin > img{display:block; width:55px;height:auto;}
+div.chicos{display: inline-block; width: 65px; margin: 0px -68px 63px;}
+div.chicos > img{ max-width:65px; width:65px;display:block;margin:auto;}
+div.chicos > a.linkCertisur{width:65px; display:block;margin:auto;}
+div.chicos > a.linkCertisur > img{width:55px;display:block;margin:auto;}
+
+/* logos validaciÃ³n login */
+
+
+/***********Enrolamiento *********/
+div.login div.campos{
+        top: 115px;
+    }
+
+.recuperacion_usuario {
+    bottom: 0;
+    margin: auto;
+    padding: 23px 0;
+    position: absolute;
+    width: 380px;
+    display: flex;
+}
+.registrarse {
+    position: absolute;
+    left: 133px;
+    font-size: 12px;
+    top: 232px;
+    color: #0087ab;
+    text-decoration: none;
+}
+a.enrolamiento {
+    text-decoration: none;
+    color: #0087ab !important;
+    font-size: 13px;
+    border-bottom: 1px solid #0087ab;
+}
+
+html body form#UserNameVerificationForm div#contenedor.contenedor div.login div.recuperacion_usuario a.blanqueo, html body form#UserNameVerificationForm div#contenedor.contenedor div.login div.recuperacion_usuario a.desbloqueo {
+    color: #0087ab !important;
+    display: flex;
+    margin-left: 29px;
+    text-align: left;
+     width: 139px;
+
+}
+
+/***********FIN Enrolamiento *********/
+
+
+/************ INI - RECORDAR USUARIO ************/
+
+input#recordarme{
+	width:10px;
+	float:left;
+}
+
+label#lblRecordarme{
+	padding-left: 0px;
+	margin-bottom:0px;
+	margin-top:4px;
+	margin-left:5px;
+}
+
+#jqmOverlay {
+    background-color: #000;
+    opacity: 0.5 !important;
+    height: 100%;
+    left: 0;
+    opacity: 0.5;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 5000;
+    display:none;
+}
+
+#aceptarTycOlvidarUsu {
+	left: 56%;
+}
+
+#aceptarTycOlvidarUsu .top #cerrarAceptarTycOlvidarUsu {
+	background: url(imagenes/compartido/cerrar.modal.png) no-repeat right center;
+	color: #FFF;
+	font-weight: bold;
+	margin-right: 10px;
+	padding-right: 18px;
+	padding-left: 0;
+	text-decoration: none;
+}
+
+body .linkModal .btnModalTycRecordar {
+    width: 100%;
+    height: 22px;
+    float: left;
+    display: inline;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color:#EEEEEE;
+    border-top: 1px solid #666666;
+}	
+
+body .linkModal .btnModalTycRecordar a#btnCancelar,
+body .linkModal .btnModalTycRecordar a#btnAceptar {
+/*     background: url(imagenes/compartido/print.png) no-repeat left top; */
+	background-position: left 5px top 5px;
+	background-position: left center\9;
+	background-color:#005192;
+	/*border: 1px solid #123669;*/
+	border-radius: 3px;
+	line-height: 20px;
+    padding: 8px 20px 8px 20px !important;
+	color:#fff;
+}
+
+body .linkModal .btnModalTycRecordar {
+	padding: 10px 0;
+}
+
+body .linkModal .btnModalTycRecordar a {
+    display: inline;
+    margin-right: 10px;
+/*     padding: 3px 0px 3px 22px; */
+    margin-top: 5px;
+/*     color: #666666; */
+    text-decoration: none;
+}
+
+.darBienvenida{
+	width: 100%;
+    height: 60px;
+}
+
+.darBienvenida #holaSpan{
+	font-size:23px;
+}
+
+.darBienvenida #noSoySpan{
+	font-size:12px;
+	color:black;
+}
+
+.darBienvenida #noSoySpan:hover{
+	background-color: #ccc;
+	padding: 5px;
+}
+
+.olvidarUsuario a{
+	text-decoration:none; 
+}
+
+
+/* Ini modal olvidar usuario */
+#olvidarUsuario{
+    color: #333;
+    font-size: 13px;
+    left: 61%;
+    padding: 20px!important;
+    width: 345px;
+    background-color: rgba(255, 255, 255) !important; /* Tomar el mismo background del box de login */
+}
+#olvidarUsuario .titSeccion{
+	letter-spacing:0;
+	line-height: 45px;
+	text-align: left;
+	border-bottom-style: solid;
+    border-bottom-width: 1px;
+	font-size: 14px;
+	margin-bottom: 10px;
+	font-weight: bold;
+}
+#olvidarUsuario .botonesOlvidar{
+	width: 100%;
+/* 	height:30px; */
+	text-align: center;
+	margin-top:20px;
+}
+
+#olvidarUsuario .botonesOlvidar .btn{
+  	padding: 5px;
+  	border: 0;
+  	background: #00addb; /* Tomar el mismo background del boton ingresar del box de login */
+  	font-size: 13px;
+  	color: #FFF;
+  	text-decoration: none;
+}
+/* Fin modal olvidar usuario */
+
+/*** clases Recordar ***/
+.loginRecordar{
+	height: 320px !important;
+}
+
+
+
+#loginBox .ctdorCkeckRecordar{
+	height:20px !important;
+	margin-top:2px !important;
+}
+
+.campoPasswordRecordar{
+	padding-top: 30px !important;
+}
+
+.camposRecordar{
+	
+}
+
+.bienvenidoRecordar{
+	margin-bottom: 20px !important; 
+}
+
+.avatarRecordar{
+	margin-top: 25px !important;
+}
+
+.loginInfoIdRecordar{
+	
+}
+
+.inputUsuRecordar{
+	
+}
+
+.ingresoRecordar{
+	
+}
+
+.cuerpoRecordar{
+	
+}
+.esPcPublicaRecordar{
+	
+}
+
+.campoUsuarioRecordar{
+	
+}
+
+.recuperacion_usuario_recordar{
+	
+}
+
+/*** clases Recordar2 ***/
+.loginRecordar2{
+ 	height: 320px !important; 
+}
+
+
+
+#loginBox .ctdorCkeckRecordar2{
+/* 	height:20px !important; */
+/* 	margin-top:2px !important; */
+}
+
+.campoPasswordRecordar2{
+ 	padding-top: 30px !important; 
+}
+
+.camposRecordar2{
+	
+}
+
+.bienvenidoRecordar2{
+ 	margin-bottom: 20px !important;  
+}
+
+.avatarRecordar2{
+ 	margin-top: 25px !important; 
+}
+
+.loginInfoIdRecordar2{
+	
+}
+
+.inputUsuRecordar2{
+	
+}
+
+.ingresoRecordar2{
+	
+}
+
+.cuerpoRecordar2{
+	
+}
+
+.esPcPublicaRecordar2{
+	position: relative;
+    z-index: 1;
+}
+
+.campoUsuarioRecordar2{
+	
+}
+
+.recuperacion_usuario_recordar2{
+	
+}
+
+/*** clases Recordado ***/
+.loginRecordado{
+	height: 380px !important;
+}
+
+.registrarseRecordado{
+	top: 320px !important;
+}
+
+.camposRecordado{
+	top: 210px !important;
+}
+
+.bienvenidoRecordado{
+	margin-bottom: 0px !important; 
+}
+
+.avatarRecordado{
+	margin-top: 0px !important;
+}
+ 
+.campoPasswordRecordado{
+	padding-top: 0px !important;
+}
+
+.loginInfoIdRecordado{
+	
+}
+
+.inputUsuRecordado{
+	
+}
+
+.ingresoRecordado{
+	
+}
+
+.cuerpoRecordado{
+	
+}
+
+.esPcPublicaRecordado{
+	margin-top: 25px !important;
+}
+
+.recuperacion_usuario_recordado{
+	
+}
+
+/* .loginRecordado:after { */
+   
+/* } */
+
+/********* FIN - RECORDAR USUARIO **********/
+.registrarseRecordar2{
+ 	top: 253px !important; 
+}
+.registrarseRecordar{
+	top: 253px !important;
+}
+div.login{
+	background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 2px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    display: block;
+    font-size: 12px;
+    height: 290px;
+    margin: 137px auto 200px 55%;
+    position: relative;
+    text-align: center;
+    width: 340px;
+}
+a.btn_ingresar{
+    bottom: 80px;
+}
